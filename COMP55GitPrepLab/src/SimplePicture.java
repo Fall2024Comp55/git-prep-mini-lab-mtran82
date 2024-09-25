@@ -1,4 +1,5 @@
 //comment one
+//test by student (please ignore this line)
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
 import acm.program.GraphicsProgram;
@@ -13,7 +14,7 @@ public class SimplePicture extends GraphicsProgram {
 	public void run() {
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
-		GLabel label = new GLabel("How I felt before knowing about github", 200, 300);
+		GLabel label = new GLabel("How I felt before knowing", 200, 300);
 		add(label);
 	}
 	
